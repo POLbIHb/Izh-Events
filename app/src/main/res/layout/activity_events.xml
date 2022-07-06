@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.EventsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/red">
+        <TextView
+            android:id="@+id/txt_start_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="по"/>
+        <TextView
+            android:id="@+id/txt_stop_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txt_friends_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/events_search_hint"/>
+
+    <FrameLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_events"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideOverlay"
+            android:fadeScrollbars="false"
+            android:scrollbarThumbVertical="@drawable/redscrollbar"/>
+
+        <TextView
+            android:id="@+id/txt_no_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </FrameLayout>
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        android:id="@+id/cpv_events"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cpv_color="@color/red"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        app:cpv_animAutostart="true"
+        app:cpv_indeterminate="true" />
+
+</LinearLayout>

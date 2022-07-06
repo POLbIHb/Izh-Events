@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">vk-api-playbill</string>
+    <string name="login_hello">Добро пожаловать\nНажмите кнопку \"Войти\"\nдля продолжения работы</string>
+    <string name="login_enter">ВОЙТИ</string>
+    <string name="events_search_hint">Введите название события</string>
+    <string name="events_no_items">Запрос не дал результатов</string>
+    <string name="login_error">Неверные логин или пароль</string>
+    <string name="list_error_notification">Ошибка вывода списка событий</string>
+    <string name="join_event">Присоединиться ко встрече</string>
+    <integer name="com_vk_sdk_AppId">8190353</integer>
+</resources>
