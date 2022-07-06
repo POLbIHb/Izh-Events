@@ -1,5 +1,7 @@
 # Izh-Events
 Моя дипломная работа на тему "Разработка мобильного приложения "Афиша событий города Ижевска"
+
+
 **Имя выполняющего:** Нельзин Илья
 
 **Почта:** illobikol@gmail.com
@@ -19,7 +21,9 @@
 5) VK SDK;
 
 **Комментарии автора:**
+
 В данном проекте я делал упор на изучение паттерна MVP, реализованного с помощью библиотеки Moxy (многое из того, что я планировал еще требует доработок и будет реализовано в ближайшем будущем). Также я коснулся изучения работы с VK SDK - оттуда я брал всю информацию о проходящих событиях в городе Ижевске (можно подставить любой город). Ниже приведены скриншоты выполнения приложения:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/65337844/177506045-f793d8cf-5c6c-4e1b-8f86-f839baba2de0.png" width="300"><img src="https://user-images.githubusercontent.com/65337844/177506317-0f224604-27e2-4b95-b659-49f9728e9d21.png"width="300"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/65337844/177506509-1189a741-3df8-4766-bcb5-51989e474c19.png" width="300"><img src="https://user-images.githubusercontent.com/65337844/177506596-5f2ef00f-acd8-405a-b2e2-0620f61195bd.png"width="300"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/65337844/177507353-3ac8d009-6f03-4f4d-b237-4f24aefda34f.png" width="300"><img src="https://user-images.githubusercontent.com/65337844/177507410-c072320e-cc68-4e76-bdcb-7a7e4c2cf710.png"width="300"></p>
